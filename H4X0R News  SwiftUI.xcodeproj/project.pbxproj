@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		981C1E802402C1F0008EF1E8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C1E7F2402C1F0008EF1E8 /* DetailView.swift */; };
+		981C1E822402C6EC008EF1E8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C1E812402C6EC008EF1E8 /* WebView.swift */; };
 		9847919524019AC4003259C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847919424019AC4003259C2 /* AppDelegate.swift */; };
 		9847919724019AC4003259C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847919624019AC4003259C2 /* SceneDelegate.swift */; };
 		9847919924019AC4003259C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847919824019AC4003259C2 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		981C1E7F2402C1F0008EF1E8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		981C1E812402C6EC008EF1E8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		9847919124019AC4003259C2 /* H4X0R News  SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News  SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9847919424019AC4003259C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9847919624019AC4003259C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				9847919824019AC4003259C2 /* ContentView.swift */,
 				981C1E7F2402C1F0008EF1E8 /* DetailView.swift */,
+				981C1E812402C6EC008EF1E8 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				9847919524019AC4003259C2 /* AppDelegate.swift in Sources */,
 				9847919724019AC4003259C2 /* SceneDelegate.swift in Sources */,
 				9847919924019AC4003259C2 /* ContentView.swift in Sources */,
+				981C1E822402C6EC008EF1E8 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
