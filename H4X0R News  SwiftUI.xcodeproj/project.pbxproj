@@ -22,6 +22,7 @@
 /* Begin PBXFileReference section */
 		981C1E7F2402C1F0008EF1E8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		981C1E812402C6EC008EF1E8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		981C1E842402D40C008EF1E8 /* H4X0R News  SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4X0R News  SwiftUI.entitlements"; sourceTree = "<group>"; };
 		9847919124019AC4003259C2 /* H4X0R News  SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News  SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9847919424019AC4003259C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9847919624019AC4003259C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		9847919324019AC4003259C2 /* H4X0R News  SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				981C1E842402D40C008EF1E8 /* H4X0R News  SwiftUI.entitlements */,
 				9847919424019AC4003259C2 /* AppDelegate.swift */,
 				9847919624019AC4003259C2 /* SceneDelegate.swift */,
 				981C1E7E2402C1C3008EF1E8 /* Views */,
@@ -316,7 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R News  SwiftUI/H4X0R News  SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News  SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = S8YN767A55;
 				ENABLE_PREVIEWS = YES;
@@ -327,6 +331,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.teberdinsky.H4X0R-News--SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,7 +341,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R News  SwiftUI/H4X0R News  SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News  SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = S8YN767A55;
 				ENABLE_PREVIEWS = YES;
@@ -347,6 +354,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.teberdinsky.H4X0R-News--SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
